@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CASH & CARRY - WHOLESALE </title>
+    <!-- Page Logo --> <link rel="shortcut icon" href="AIL.png" type="image/x-icon">
+    <!-- HTML AOS link --> <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* <!-- CSS Header --> */
+        header{
+            text-align: center;
+        }
+        
+        header img{
+            width: 150px;
+            height: 150px;
+        }
+
+        header marquee{
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: deeppink;
+        }
+
+        /* <!-- CSS of Nav-Bar Elements --> */
+        nav{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(57, 4, 107);
+            text-align: center;
+        }
+
+        nav li{
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+
+        /* <!-- CSS About Us Elements --> */
+        #About-Heading{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .about-main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .about-content-one img{
+            width: 450px;
+        }
+
+        .about-content-two{
+            margin: 30px;
+        }
+
+        .about-content-two li{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* <!-- CSS Our Products Elements --> */
+        #product{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .product{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .product-content{
+            width: 290px;
+            height: 310px;
+            margin: 20px;
+        }
+
+        .product-content img{
+            width: 290px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .product-content p{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* <!-- CSS Gallery Elements --> */
+        #gallery{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+            text-align: center;
+        }
+
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .gallery-content{
+            width: 245px;
+            height: 280px;
+            margin: 10px;
+        }
+
+        .gallery-content img{
+            width: 245px;
+            height: 270px;
+            object-fit: cover;
+        }
+
+        .gallery-content p{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #Contact-Heading{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }  
+        
+        /* <!-- CSS Contact Us Elements --> */
+        .contact-main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contact-content-one img{
+            width: 400px;
+        }
+
+        .contact-content-two{
+            margin: 20px;
+        }
+
+        .contact-content-two a{
+            text-decoration: none;
+            color: rgb(101, 101, 212);
+        }
+
+        /* <!-- How the webpage should adjust in mobiles ranging from width: 320px to max: 700px --> */
+        @media screen and (min-width:320px) and (max-width:780px) {
+    
+            body{
+                margin-left: 10px;
+            }
+
+            header marquee{
+                font-size: 35px;
+            }
+            
+            nav a{
+                font-size: 10px;
+            }
+
+            .product-content{
+                width: 320px;
+                margin: 10px;
+            }
+            
+            .product-content img{
+                width: 320px;
+            }
+
+            .gallery-content{
+                width: 152px;
+                height: 180px;
+                margin: 7px;
+            }
+
+            .gallery-content img{
+                width: 152px;
+                height: 170px;
+            
+            }
+
+            .gallery-content p{
+            font-size: 15px;
+            }
+            
+            .contact-content-one img{
+                width: 330px;
+            }
+            
+
+            footer li a{
+                font-size: 15px;
+            }
+
+        }
+
+        /* <!-- CSS Footer Elements --> */
+        footer{
+            width: 100%;
+            height: 60px;
+            background-color: black;
+            text-align: center;
+        }
+
+        footer li{
+            font-size: 30px;
+            display: inline-block;
+            color: white;
+            margin: 10px;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+<!-- Beginning Header -->
+    <header>
+        <img src="AIL.png" alt=""> <br>
+        <h1> <marquee behavior="aalternate" id="ail"> <b> CASH & CARRY - WHOLESALE <b> </marquee> </h1>
+    </header>
+<!-- End of Header -->
+<!-- Beginning Nav-Bar -->
+    <nav data-aos="zoom-in">
+         <ul>
+            <li> <a href="Workplace.html"> Home </a></li>
+            <li> <a href="#product"> Products </a></li>
+            <li> <a href="#gallery"> Gallery </a></li>
+            <li> <a href="#About-Heading"> About Us </a></li>
+            <li> <a href="#Contact-Heading"> Contact Us </a></li>
+         </ul>
+    </nav>
+<!-- End of Nav-Bar -->
+
+<!-- Section Image -->
+    <img src="Flyer.jpg" style="width: 100%;">
+    <br><br><br>
+<!-- Beginning of About Us -->
+    <h1 id="About-Heading"> ABOUT US </h1>
+    <br>
+    <div class="about-main" data-aos="fade-right" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <div class="about-content-one" style="width: 400px; margin: 20px;"> <br>
+            <img src="8 PM Flyer.jpg" alt="" style="width: 350px;">
+        </div>
+
+        <div class="about-content-two" data-aos="fade-left" style="width: 500px; height: 500px; margin: 20px;"> <br>
+            <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"> Want To Know About Us </h2> <br>
+            <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;"> 
+                We are a top company of wholesale whose priority is serving its customers to the best of their satisfactions. <br> 
+                We offer varieties of services to our customers, which includes but not limited to: <br>
+                <ul style="margin-left: 20px;">
+                    <li> wholesale provision</li>
+                    <li> supermarket provision </li>
+                    <li> bar provision </li>
+                    <li> hotel provision </li>
+                    <li> pool services </li>
+                    <li> filling station services </li>
+                </ul>
+            
+            </p>
+
+        </div>
+    </div>
+
+<!-- End of About Us -->
+    <br>
+<!-- Beginning of Our Products -->
+    <h1 id="product"> OUR PRODUCTS </h1>
+    <div class="product" data-aos="zoom-out">
+        <div class="product-content">
+            <img src="Amega.jpg" alt="">
+            <p> Amega Bitters </p>
+        </div>
+        <div class="product-content">
+            <img src="Amega Box.jpg" alt="">
+            <p> Original Amega </p>
+        </div>
+        <div class="product-content">
+            <img src="Amuzu.jpg" alt="">
+            <p> Amuzu Bitters </p>
+        </div>
+        <div class="product-content">
+            <img src="Jagermeister 100ml.jpg" alt="">
+            <p> Jagermeister 100ml </p>
+        </div>
+        <div class="product-content">
+            <img src="BB Cocktail.jpg" alt="">
+            <p> BB Cocktail 330ml </p>
+        </div>
+        <div class="product-content">
+            <img src="Can Minerals.jpg" alt="">
+            <p> Can Minerals 330ml </p>
+        </div>
+        <div class="product-content">
+            <img src="Can Don Simon.jpg" alt="">
+            <p> Can Don Simon </p>
+        </div>
+        <div class="product-content">
+            <img src="Don Simon 1L.jpg" alt="">
+            <p> Don Simon 1L </p>
+        </div>
+        <div class="product-content">
+            <img src="Ruskov Vodka.jpg" alt="">
+            <p> Ruskov Vodka 1L </p>
+        </div>
+        <div class="product-content">
+            <img src="U - Fresh Box.jpg" alt="">
+            <p> U - Fresh Plastic </p>
+        </div>
+        <div class="product-content">
+            <img src="Don Simon 500ml.jpg" alt="" style="object-fit: cover;">
+            <p> Don Simon 500ml </p>
+        </div>
+        <div class="product-content">
+            <img src="8 PM BLack 750ml.jpg" alt="" style="object-fit: cover;">
+            <p> Radico 8 PM </p>
+        </div>
+    </div>
+<!-- End of Our Products -->
+
+<br><br>
+<!-- Beginning of Gallery -->
+<h1 id="gallery"> GALLERY </h1>
+    <div class="gallery" data-aos="zoom-in">
+        <div class="gallery-content">
+            <img src="Amega Box 1.jpg" alt="">
+            <p> Amega New Labelled </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Cash & Carry Wine.jpg" alt="">
+            <p> Inside Wines </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Baron Romero.jpg" alt="">
+            <p> Baron Romero Wine </p>
+        </div>
+        <div class="gallery-content">
+            <img src="JP Chenet 750ml.jpg" alt="">
+            <p> JP Chenet 750ml </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Champagnes.jpg" alt="">
+            <p> Mix Champagnes </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Croner Wine 1.jpg" alt="">
+            <p> Cronier Wine </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Cronier Champagne.jpg" alt="">
+            <p> Cronier Champagne </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Cronier Mix 1.jpg" alt="">
+            <p> Cronier Mix  </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Cronier Mix 2.jpg" alt="">
+            <p> Cronier Wn & Chmpgn </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Cronier Wine.jpg" alt="">
+            <p> Cronier Wine </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Jelzin Vodka 700ml.jpg" alt="">
+            <p> Jelzin Vodka 700ml </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Kiss Bottle.jpg" alt="">
+            <p> Kiss Bottle </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Kiss Cider 500ml.jpg" alt="">
+            <p> Kiss Cider 500ml </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Lime Plastic.jpg" alt="">
+            <p> Lime Plastic </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Loading Guys 3.jpg" alt="">
+            <p> Loading Boyz </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Lordson Gin.jpg" alt="">
+            <p> Foreign Gin </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Mozeco Champagne.jpg" alt="">
+            <p> Mozeco Champagne </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Old Admiral 750ml.jpg" alt="">
+            <p> Old Admiral 750ml </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Red Wine.jpg" alt="">
+            <p> Red Wine </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Rhum Mangoustan's.jpg" alt="">
+            <p> Rhum Mangoustan's </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Tecquila.jpg" alt="">
+            <p> Tecquila Varieties </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Eva Champagne.jpg" alt="">
+            <p> Eva Champagne </p>
+        </div>
+        <div class="gallery-content">
+            <img src="8 PM BLack 750ml.jpg" alt="">
+            <p> 8 PM Black 750ml </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Tecquila.jpg" alt="">
+            <p> Sierra Tecquila </p>
+        </div>
+        <div class="gallery-content">
+            <img src="Amega Box 1.jpg" alt="">
+            <p> Original Amega Box </p>
+        </div>
+    </div>
+<!-- End of Gallery -->
+    <br><br>
+<!-- Beginning of Contact Us -->
+    <h1 id="Contact-Heading"> CONTACT US </h1>
+
+    <br><br>
+
+    <div class="contact-main">
+        <div class="contact-content-one" data-aos="fade-right">
+            <img src="Four Special Flyer.jpg">
+        </div>
+
+        <div class="contact-content-two" data-aos="fade-left">
+            <br>
+            <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"> Want To Get In Contact With Us? </h2> <br>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"> 
+                Please get in contact with our customer service <br> representative through either of the following <br> mediums provided below: <br><br>
+                Call/Whatsapp: <br> 
+                (+233) 264-262-543 / (+233) 533-480-202 <br><br> 
+                Email Us @: <br> 
+                <a href=""> sheriffmoifelay7@gmail.com </a> <br>
+                <a href=""> moifelay7@yaloo.com </a> <br> 
+                <a href=""> khalifah7@gmail.com </a>
+            </p>
+
+        </div>
+    </div>
+<!-- End of Contact Us -->
+    <br><br>
+<!-- Beginning of Footer -->
+    <footer>
+        <ul>
+            <li> <a href="#About-Heading"> About </a> </li>
+            <li> <a href=""> Terms and Conditions </a> </li>
+            <li> <a href=""> Help </a> </li>
+            <li> <a href="#Contact-Heading"> Contact </a> </li>
+            <li> <a href="#ail"> &2025 Adjosec Investment Ltd. </a> </li>
+        </ul>
+        
+    </footer>
+<!-- End of Footer -->
+
+  <!-- JavaScript AOS link--> <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
